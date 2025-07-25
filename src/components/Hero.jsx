@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import { MY } from "../assets";
 
 const Hero = () => {
   return (
@@ -28,7 +29,7 @@ const Hero = () => {
           </p>
         </div>
         <div className="ml-8  overflow-hidden w-fit h-fit">
-          <img src="\src\assets\My.png" alt="" className="object-cover" />
+          <img src={MY} alt="" className="object-cover" />
         </div>
       </div>
 

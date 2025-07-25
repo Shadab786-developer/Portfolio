@@ -7,6 +7,7 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import deployed from "./deployed.jpg";
+import MY from "./My.png";
 
 import css from "./tech/css.png";
 import figma from "./tech/figma.png";
@@ -42,6 +43,7 @@ export {
   mobile,
   web,
   github,
+  MY,
   deployed,
   menu,
   close,
