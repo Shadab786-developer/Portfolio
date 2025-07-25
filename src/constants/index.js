@@ -14,14 +14,15 @@ import {
   mongodb,
   git,
   figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  nextJs,
+  postman,
+  java,
+  bootstrap,
+  githubTech,
+  VerbiQLogo,
+  myntra,
+  VerbiQ,
+  userAuth,
   threejs,
 } from "../assets";
 
@@ -46,7 +47,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React Developer",
     icon: mobile,
   },
   {
@@ -54,7 +55,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "MERN Stack Developer",
     icon: creator,
   },
 ];
@@ -72,10 +73,10 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
+  // {
+  //   name: "TypeScript",
+  //   icon: typescript,
+  // },
   {
     name: "React JS",
     icon: reactjs,
@@ -104,124 +105,92 @@ const technologies = [
     name: "git",
     icon: git,
   },
+  // {
+  //   name: "figma",
+  //   icon: figma,
+  // },
   {
-    name: "figma",
-    icon: figma,
+    name: "nextJs",
+    icon: nextJs,
+  },
+  // {
+  //   name: "GitHub",
+  //   icon: githubTech,
+  // },
+  {
+    name: "Java",
+    icon: java,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "Postman APIs",
+    icon: postman,
   },
+  // {
+  //   name: "bootstrap",
+  //   icon: bootstrap,
+  // },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Full Stack Software Engineer Intern",
+    company_name: "Qurocity",
+    icon: VerbiQLogo,
+    iconBg: "#ffffff",
+    date: "April 2025 - September 2025",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
+      "Built scalable APIs in Node.js and Express, reducing response time by 30%",
+      "Manage a database form our VerbiQ.ai platform with Mongo Db database ",
     ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-];
-
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    name: "Full-Stack E-Commerce Web App",
+    description: `Developed a responsive Myntra-like e-commerce SPA using React, Redux Toolkit, and React Router, ensuring consistent performance across all devices.
+Design and integrated RESTful Express.js APIs to power product catalogue browsing, bag/Wishlist management, and real-time price calculation.
+Implemented advanced product functionality: filters (price, discount, category), sorting, search, “add-to-bag”, “Wishlist”, and “view” similar items features.
+Developed a secure user authentication system with real-time email-based OTP verification using Node mailer and Express.js.`,
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "MongoDB",
         color: "green-text-gradient",
       },
       {
         name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "Express JS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Node Js",
+        color: "green-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: myntra,
+    source_code_link:
+      "https://github.com/Shadab786-developer/Myntra-clone-React.git",
+    deployed_link: "https://myntra-clone-react-two.vercel.app/",
   },
   {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    name: "VerbiQ.ai",
+    description: `Contributed to building a responsive React-based user interface for an enterprise document access platform.
+Assisted in integrating secure file upload and retrieval APIs using Express and Multer.
+Supported frontend enhancements for real-time document preview, search, and categorization of uploaded files.
+Implemented basic role-base access control (RBAC) on backend routes to manage user permissions for uploading and viewing.
+Collaborated on integrating authentication flow and managing user sessions securely using JWT.
+Participated in UI improvement efforts to align with responsive design standards and clean user experience principles.`,
     tags: [
       {
         name: "react",
@@ -232,34 +201,47 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "TailwindCSS",
         color: "pink-text-gradient",
       },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
       {
-        name: "nextjs",
+        name: "Express JS",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+    ],
+    image: VerbiQ,
+    source_code_link: "https://github.com/Qurocity-ai/VerbiQ.ai.git",
+    deployed_link: "https://www.verbiq.ai/",
+  },
+  {
+    name: "Secure Auth + Email Verification Web App",
+    description: `Contributed to developing a secure full-stack authentication system using Next.js API routes, bcrypt JS, and JWT,      enabling protected user login sessions.
+Integrated email verification flow using Nod emailer, enabling real-time code dispatch and validation for account activation.
+Configured MongoDB with Mongoose to store and manage user data, including encrypted passwords and session tokens.
+Built responsive user interfaces using React 19 + Tailwind CSS, implementing toast notifications for real-time user feedback.
+Collaborated on backend API logic including token validation, error handling, and secure routing within the Next.js architecture.`,
+    tags: [
+      {
+        name: "Nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MongoDB",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "TailwindCSS",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: userAuth,
+    source_code_link:
+      "https://github.com/Shadab786-developer/User-Auth-By-Next.git",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };
